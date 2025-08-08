@@ -1,0 +1,19 @@
+# Python dependencies for Finalized Session Switcher
+
+# Telegram API client
+telethon>=1.30.0
+
+# Environment variable loader
+python-dotenv>=1.0.0
+
+# Terminal color output
+colorama>=0.4.6
+
+# Progress bar for uploads/downloads
+tqdm>=4.66.3
+
+# Optional: Browser automation for setup_api_credentials.py
+playwright>=1.44.0
+
+# Note: If you use setup_api_credentials.py with playwright, run:
+#   playwright install
