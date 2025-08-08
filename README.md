@@ -30,7 +30,7 @@ To use these tools, you must have a `.env.local` file in the **project root** wi
 
 ## 2. Creating `.env.local` File
 
-In your project root (`telegram-media-downloader/`), create a file named `.env.local` with:
+In your project root (`TGDUS/`), create a file named `.env.local` with:
 
 ```
 API_ID=123456
@@ -45,7 +45,7 @@ Replace with the **API_ID** and **API_HASH** you got from step 1.
 
 ### Initial Run:
 ```bash
-python finalized_session_switcher/session_switcher.py
+python session_switcher.py
 ```
 - On first login, you will be prompted for your phone number.
 - A Telegram OTP will be sent to your account — enter it.
@@ -66,4 +66,5 @@ python finalized_session_switcher/session_switcher.py
 ## 5. Notes
 - Protect your `.session` files as they contain credentials.
 - API credentials and session files are account-specific — keep them secure.
+
 - You can use **multiple accounts** without re-login by switching sessions.
